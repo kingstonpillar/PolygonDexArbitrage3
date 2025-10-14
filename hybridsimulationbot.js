@@ -38,7 +38,7 @@ console.log('[ETHERS]', ethers.version);
 
 // ===========================================================
 
-const MAX_CONCURRENT_REQUESTS = 2;
+const MAX_CONCURRENT_REQUESTS = 4;
 
 const __rpcQueue = [];
 
