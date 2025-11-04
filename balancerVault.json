@@ -1,0 +1,15 @@
+[
+  {
+    "name": "batchSwap",
+    "type": "function",
+    "inputs": [
+      { "name": "kind", "type": "uint8" },
+      { "name": "swaps", "type": "tuple[]" },
+      { "name": "assets", "type": "address[]" },
+      { "name": "funds", "type": "tuple" },
+      { "name": "limits", "type": "int256[]" },
+      { "name": "deadline", "type": "uint256" }
+    ],
+    "outputs": [{ "type": "int256[]" }]
+  }
+]

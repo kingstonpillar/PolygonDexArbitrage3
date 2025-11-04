@@ -1,0 +1,13 @@
+[
+  {
+    "name": "exchange",
+    "type": "function",
+    "inputs": [
+      { "name": "_from", "type": "int128" },
+      { "name": "_to", "type": "int128" },
+      { "name": "_dx", "type": "uint256" },
+      { "name": "_min_dy", "type": "uint256" }
+    ],
+    "outputs": [{ "name": "output", "type": "uint256" }]
+  }
+]
