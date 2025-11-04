@@ -1,0 +1,38 @@
+[
+  {
+    "name": "batchSwap",
+    "type": "function",
+    "stateMutability": "payable",
+    "inputs": [
+      { "name": "kind", "type": "uint8" },
+      {
+        "name": "swaps",
+        "type": "tuple[]",
+        "components": [
+          { "name": "poolId", "type": "bytes32" },
+          { "name": "assetInIndex", "type": "uint256" },
+          { "name": "assetOutIndex", "type": "uint256" },
+          { "name": "amount", "type": "uint256" },
+          { "name": "userData", "type": "bytes" }
+        ]
+      },
+      {
+        "name": "assets",
+        "type": "address[]"
+      },
+      {
+        "name": "funds",
+        "type": "tuple",
+        "components": [
+          { "name": "sender", "type": "address" },
+          { "name": "recipient", "type": "address" },
+          { "name": "fromInternalBalance", "type": "bool" },
+          { "name": "toInternalBalance", "type": "bool" }
+        ]
+      },
+      { "name": "limits", "type": "int256[]" },
+      { "name": "deadline", "type": "uint256" }
+    ],
+    "outputs": [{ "type": "int256[]" }]
+  }
+]
